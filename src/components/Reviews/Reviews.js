@@ -1,6 +1,6 @@
 import React from 'react';
 import ReviewsCustomer from '../ReviewsCustomer/ReviewsCustomer';
-
+import './Reviews.css'
 const Reviews = () => {
     const customers = [
         {
@@ -24,7 +24,7 @@ const Reviews = () => {
     ]
     return (
         <div>
-            <div className='bg-lime-300 p-4 mt-8'>
+            <div className='bg-lime-300 p-4 mt-8 card-container'>
                 <h1 className='text-5xl font-bold'>Customer reviews: </h1>
                 <div className='grid md:grid-cols-3 gap-3 mt-8'>
                     {

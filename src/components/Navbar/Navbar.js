@@ -11,6 +11,7 @@ const Navbar = () => {
         { id: 4, name: 'Blogs', link: '/blogs' },
         { id: 5, name: 'About', link: '/about' }
     ]
+
     return (
         <nav className='bg-lime-300'>
             <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden'>
@@ -18,13 +19,13 @@ const Navbar = () => {
             </div>
             <ul className={`md:flex justify-center absolute md:static bg-lime-300 w-full duration-500 ease-in ${open ? 'top-6' : 'top-[-120px]'}`}>
                 {
-                    routes.map(route => <Link
+                    routes.map(route => <Link to
                         key={route.id}
                         route={route}
                     ></Link>)
                 }
             </ul>
-        </nav>
+        </nav >
     );
 };
 
