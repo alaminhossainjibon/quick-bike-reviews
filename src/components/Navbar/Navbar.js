@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             <ul className={`md:flex justify-center absolute md:static bg-lime-300 w-full duration-500 ease-in ${open ? 'top-6' : 'top-[-120px]'}`}>
                 {
-                    routes.map(route => <Link to
+                    routes.map(route => <Link
                         key={route.id}
                         route={route}
                     ></Link>)

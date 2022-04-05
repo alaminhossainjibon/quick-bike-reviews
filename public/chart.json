@@ -1,0 +1,38 @@
+[
+    {
+        "bike": "bike",
+        "price": 100000,
+        "sell": 241,
+        "revenue": 10401
+    },
+    {
+        "bike": "Apr",
+        "price": 200000,
+        "sell": 423,
+        "revenue": 24500
+    },
+    {
+        "bike": "May",
+        "price": 500000,
+        "sell": 726,
+        "revenue": 67010
+    },
+    {
+        "bike": "Jun",
+        "price": 500000,
+        "sell": 529,
+        "revenue": 40405
+    },
+    {
+        "bike": "Jul",
+        "price": 600000,
+        "sell": 601,
+        "revenue": 50900
+    },
+    {
+        "bike": "Aug",
+        "price": 700000,
+        "sell": 670,
+        "revenue": 61000
+    }
+]
